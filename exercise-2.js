@@ -1,5 +1,12 @@
-fungsi balikString(string) {
-    var string
-}
+function balikString(string) {
 
-console.log('hello world!') //'dlrow olleh
+    var defaultString = [''];
+
+    for (var i=string.length-1; i>=0; i--) {
+
+        defaultString = defaultString + string[i]
+    }
+        return defaultString;
+
+}
+console.log(balikString('hello world!'));
