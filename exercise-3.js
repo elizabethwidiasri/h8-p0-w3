@@ -6,6 +6,7 @@ var input = [
     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
 ];
 
+
 function dataHandling(input) {
 
     var formulir='';
