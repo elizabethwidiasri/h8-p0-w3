@@ -1,6 +1,6 @@
 function palindrome(kata) {
 
-    
+    var hasil= ''
     var tulisan= '';
 
     for (var i=kata.length-1; i>=0; i--){
@@ -9,11 +9,11 @@ function palindrome(kata) {
     }
 
     if (kata === tulisan) {
-        console.log('true');
+        hasil = true
     } else {
-        console.log('false');
+        hasil = false
     }
-    return ''
+    return hasil
   }
   
 
