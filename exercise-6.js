@@ -19,8 +19,10 @@ function angkaPalindrome(num) {
     }
 }
 
+
 console.log(angkaPalindrome(8));
 console.log(angkaPalindrome(10));
 console.log(angkaPalindrome(117));
 console.log(angkaPalindrome(175));
 console.log(angkaPalindrome(1000));
+  
