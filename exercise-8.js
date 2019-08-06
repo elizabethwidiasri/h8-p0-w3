@@ -15,7 +15,6 @@ function pasanganTerbesar(num) {
 
     var angkaDescending = Math.max.apply(null, angka)
 
-    // var pasanganAngka = angkaDescending[0] + 
     var displayBaru = 0 ;
     var displayLama = 0 ;
 
