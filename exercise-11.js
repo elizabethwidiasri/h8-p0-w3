@@ -1,9 +1,11 @@
 function tentukanDeretAritmatika(arr) {
   
     var selisih = arr[1] - arr[0]
+    var display = [];
 
     for (var i=0; i<arr.length-1; i++) {
     var delta = arr[i+1] - arr[i]
+    display = display + delta
     }
    
 

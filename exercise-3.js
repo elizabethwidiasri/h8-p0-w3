@@ -9,7 +9,7 @@ var input = [
 
 function dataHandling(input) {
 
-    var formulir='';
+    
 
     for(var i=0; i<input.length; i++) {
 
@@ -18,7 +18,11 @@ function dataHandling(input) {
         console.log('TTL: ' + input[i][2] + input[i][3]);
         console.log('Hobi: ' + input[i][4] + '\n');
     }
-    return formulir
+    
 }
-    console.log(dataHandling(input));
+dataHandling(input);
 
+// for (var i = 0;i<input.length;i++){
+//     console.log('ID : '+input[i][0])
+// }
+// console.log(input)
