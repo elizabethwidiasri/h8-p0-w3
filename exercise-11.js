@@ -1,13 +1,13 @@
 function tentukanDeretAritmatika(arr) {
-  var selisihAwal = arr[1] - arr[0]
+    var selisihAwal = arr[1] - arr[0]
 
-  for (var i = 2; i < arr.length; i++) {
-      var selisihLain = arr[i] - arr[i - 1]
-      if (selisihLain !== selisihAwal) {
-          return false
-      }
-      return true
-  }
+    for (var i = 2; i < arr.length; i++) {
+        var selisihLain = arr[i] - arr[i - 1]
+        if (selisihLain !== selisihAwal) {
+            return false
+        }
+    }
+    return true
 }
 
 console.log(tentukanDeretAritmatika([1, 2, 3, 4, 5, 6])); // true
