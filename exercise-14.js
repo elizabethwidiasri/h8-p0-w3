@@ -12,16 +12,22 @@ Contoh jika arr inputan adalah [45, 20, 21, 2, 7] maka output: [ [ 20, 2 ], [ 7 
 */
 
 function mengelompokkanAngka(arr) {
-    var hasil = [[], [], []]
+    
+    var hasil = []
+    var kelipatan3 = []
+    var ganjil = []
+    var genap = []
+
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] % 3 === 0) {
-            hasil[2].push(arr[i])
+            kelipatan3.push(arr[i])
         } else if (arr[i] % 2 === 0) {
-            hasil[0].push(arr[i])
+            genap.push(arr[i])
         } else {
-            hasil[1].push(arr[i])
+            ganjil.push(arr[i])
         }
     }
+    hasil.push(genap, ganjil, kelipatan3)
     return hasil
 }
   
